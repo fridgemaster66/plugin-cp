@@ -1,0 +1,42 @@
+name: CP
+version: 1.0.0
+main: dev.cp.CPPlugin
+api-version: '1.20'
+description: CP - CustomPack (itemy, zbroje, bloki i dzwieki z wlasnym TexturePackiem)
+commands:
+  cp:
+    description: CustomPack
+    usage: /cp help
+permissions:
+  cp.admin:
+    description: Dostep do wszystkich funkcji CP
+    default: op
+    children:
+      cp.generate: true
+      cp.texture: true
+      cp.manage: true
+      cp.give: true
+      cp.sound: true
+      cp.language: true
+      cp.info: true
+  cp.generate:
+    description: /cp generate
+    default: op
+  cp.texture:
+    description: /cp texture
+    default: op
+  cp.manage:
+    description: /cp add, edit, delete, rename
+    default: op
+  cp.give:
+    description: /cp give
+    default: op
+  cp.sound:
+    description: /cp sound play
+    default: op
+  cp.language:
+    description: /cp language
+    default: op
+  cp.info:
+    description: /cp help, list, info
+    default: true

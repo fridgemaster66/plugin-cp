@@ -1,0 +1,16 @@
+language: pl
+
+texture:
+  download-url: "https://www.dropbox.com/scl/fi/TWOJ_LINK/txt.zip?dl=1"
+
+  force-pack: false
+  prompt: "&aPobierz TexturePack serwera!"
+
+  # 34 = 1.21/1.21.1, 32 = 1.20.5/1.20.6, 22 = 1.20.3/1.20.4, 18 = 1.20.2, 15 = 1.20/1.20.1
+  pack-format: 34
+  description: "CP - CustomPack"
+
+settings:
+  auto-create-folders: true
+  check-missing-textures: true
+  overwrite-old-pack: true
